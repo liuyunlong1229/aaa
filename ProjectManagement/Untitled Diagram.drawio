@@ -1,1 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2022-01-14T04:08:02.537Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" version="16.2.1" etag="1Z1JKrzVuAjW6loQKq9S" type="github"><diagram id="E2uaZXEqhyNYzbmC_SEe">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-14T04:21:10.249Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="ENJz0DwjtGKfFKkDd8FJ" version="16.2.1" type="github">
+  <diagram id="E2uaZXEqhyNYzbmC_SEe" name="Page-1">
+    <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mUsWHg592h1bCQiPM_Ol-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="600" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="mUsWHg592h1bCQiPM_Ol-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="360" width="590" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mUsWHg592h1bCQiPM_Ol-1" value="host" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="150" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mUsWHg592h1bCQiPM_Ol-2" value="网关域名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="145" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mUsWHg592h1bCQiPM_Ol-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="220" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mUsWHg592h1bCQiPM_Ol-4" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="230" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mUsWHg592h1bCQiPM_Ol-5" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="230" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mUsWHg592h1bCQiPM_Ol-6" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="225" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mUsWHg592h1bCQiPM_Ol-7" value="插件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="235" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mUsWHg592h1bCQiPM_Ol-8" value="路由" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mUsWHg592h1bCQiPM_Ol-10" value="host" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="405" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mUsWHg592h1bCQiPM_Ol-12" value="我现在的想法是，&lt;br&gt;1、在路由信息上面配置网关域名（host）,不同的网关，都配置独立的路由，路由上面不配插件，这个是支持的&lt;br&gt;2、开发一个定制页面上面维护一个host和插件的关系，插件信息只配置一次&lt;br&gt;3、保存时，根据host把原来配置的路由信息都查出来，将一个个路由和一个个插件绑定，保存到库里，这样就不需要每个路由单独配置插件了，通过程序来做。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="515" width="660" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mUsWHg592h1bCQiPM_Ol-14" value="路由配置页面" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="410" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mUsWHg592h1bCQiPM_Ol-16" value="插件配置页面" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="175" width="80" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
