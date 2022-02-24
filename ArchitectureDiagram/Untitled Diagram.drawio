@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-24T11:28:27.180Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="Sw49KbY38TJ3Zl0AFPX8" version="16.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-24T11:30:44.206Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="Vkl1wRD0h0qBYQiN3686" version="16.6.3" type="github">
   <diagram id="42q5yrAbg_uipcMJJwmL" name="Page-1">
     <mxGraphModel dx="2468" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -730,7 +730,7 @@
         <mxCell id="u6FiNlCxBWFaTgEtle5j-283" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.tools;pointerEvents=1;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="40" y="1491.0800000000002" width="50" height="15.85" as="geometry" />
         </mxCell>
-        <mxCell id="u6FiNlCxBWFaTgEtle5j-284" value="BI工具" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="u6FiNlCxBWFaTgEtle5j-284" value="FineBI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="31.239999999999995" y="1510" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="u6FiNlCxBWFaTgEtle5j-285" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;" parent="1" source="MQpAyLM7WQvq7NCeplu3-40" edge="1">
