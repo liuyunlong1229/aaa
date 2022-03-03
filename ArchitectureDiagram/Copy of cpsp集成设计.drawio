@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-03T06:45:38.000Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="XCO11AYr73e6MDue2IDO" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-03T06:48:39.072Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="6cqi1s_KvsSc9NhV1f81" version="16.6.4" type="github">
   <diagram id="1-lpUVrziz9LWtipDUoS" name="Page-1">
     <mxGraphModel dx="2277" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="-518" y="190" width="120" height="710" as="geometry" />
         </mxCell>
         <mxCell id="7Pp4aDeVOUlTDWOkgIp9-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-360" y="185" width="1040" height="710" as="geometry" />
+          <mxGeometry x="-360" y="170" width="1040" height="710" as="geometry" />
         </mxCell>
         <mxCell id="MXucs27VVyxfBu9uyTxn-61" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#F2F2F2;" parent="1" vertex="1">
           <mxGeometry x="310" y="720" width="120" height="80" as="geometry" />
@@ -62,7 +62,7 @@
           <mxGeometry x="-370" y="607" width="120" height="10" as="geometry" />
         </mxCell>
         <mxCell id="MXucs27VVyxfBu9uyTxn-22" value="数据标准化" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
-          <mxGeometry x="130" y="716.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="130" y="736" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MXucs27VVyxfBu9uyTxn-24" value="HTTPS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="530" y="320" width="60" height="30" as="geometry" />
@@ -169,15 +169,6 @@
         <mxCell id="MXucs27VVyxfBu9uyTxn-69" value="埋点通道服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="-260" y="297.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MXucs27VVyxfBu9uyTxn-73" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="MXucs27VVyxfBu9uyTxn-22" target="MXucs27VVyxfBu9uyTxn-8" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="80" y="710" as="sourcePoint" />
-            <mxPoint x="123.76000000000022" y="650.48" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="124" y="740" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="MXucs27VVyxfBu9uyTxn-74" value="运营数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-250" y="610" width="60" height="30" as="geometry" />
         </mxCell>
@@ -194,7 +185,7 @@
           <mxGeometry x="-500" y="617" width="80" height="51" as="geometry" />
         </mxCell>
         <mxCell id="VtvNqMEHdlJ7I6D5ilD2-7" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-320" y="701.5" width="60" height="64.5" as="geometry" />
+          <mxGeometry x="-330" y="736" width="60" height="64.5" as="geometry" />
         </mxCell>
         <mxCell id="VtvNqMEHdlJ7I6D5ilD2-8" value="业务网关" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-493" y="409.5" width="80" height="51" as="geometry" />
@@ -215,10 +206,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VtvNqMEHdlJ7I6D5ilD2-12" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.elasticsearch_service;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-150" y="695.5" width="67.5" height="81" as="geometry" />
+          <mxGeometry x="-150" y="683.5" width="67.5" height="81" as="geometry" />
         </mxCell>
         <mxCell id="VtvNqMEHdlJ7I6D5ilD2-13" value="Elastic Search" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-140" y="790" width="60" height="30" as="geometry" />
+          <mxGeometry x="-70" y="715" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VtvNqMEHdlJ7I6D5ilD2-14" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" target="VtvNqMEHdlJ7I6D5ilD2-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -272,6 +263,12 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="370" y="700" as="sourcePoint" />
             <mxPoint x="420" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Pp4aDeVOUlTDWOkgIp9-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MXucs27VVyxfBu9uyTxn-22" target="VtvNqMEHdlJ7I6D5ilD2-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="820" as="sourcePoint" />
+            <mxPoint x="130" y="770" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
