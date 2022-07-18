@@ -1,1 +1,151 @@
-<mxfile host="app.diagrams.net" modified="2022-07-18T01:45:56.034Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" version="18.1.2" etag="eZznzJBKgdrtHbdBThQI" type="github"><diagram id="KbBYlFoU5-2_jZDXc6l5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-18T02:08:58.791Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="Y8LbHCj-4U-1yAcbAauc" version="18.1.2" type="github">
+  <diagram id="KbBYlFoU5-2_jZDXc6l5" name="Page-1">
+    <mxGraphModel dx="782" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="T-NpHmAWfooNjLqC8jVq-1" value="IHU" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="240" y="220" width="100" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="T-NpHmAWfooNjLqC8jVq-18" value="其他的业务接口请求，携带Token" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="T-NpHmAWfooNjLqC8jVq-1" target="T-NpHmAWfooNjLqC8jVq-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="410" as="sourcePoint" />
+            <mxPoint x="130" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T-NpHmAWfooNjLqC8jVq-28" value="检查不通过，禁止访问" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="T-NpHmAWfooNjLqC8jVq-1" source="T-NpHmAWfooNjLqC8jVq-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="480" as="sourcePoint" />
+            <mxPoint x="50" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T-NpHmAWfooNjLqC8jVq-2" value="车机网关" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="490" y="220" width="100" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="T-NpHmAWfooNjLqC8jVq-5" value="转发请求" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="T-NpHmAWfooNjLqC8jVq-2" target="T-NpHmAWfooNjLqC8jVq-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="130" as="sourcePoint" />
+            <mxPoint x="130" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T-NpHmAWfooNjLqC8jVq-9" value="请求登陆二维码" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="T-NpHmAWfooNjLqC8jVq-2">
+          <mxGeometry x="-0.4184" y="12" width="80" relative="1" as="geometry">
+            <mxPoint x="-200" y="102" as="sourcePoint" />
+            <mxPoint x="49.5" y="102" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T-NpHmAWfooNjLqC8jVq-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="T-NpHmAWfooNjLqC8jVq-2">
+          <mxGeometry x="46" y="440" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T-NpHmAWfooNjLqC8jVq-23" value="检查是否白名单接口，检查访问令牌Token" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="T-NpHmAWfooNjLqC8jVq-22" parent="T-NpHmAWfooNjLqC8jVq-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="420" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="420" />
+              <mxPoint x="80" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T-NpHmAWfooNjLqC8jVq-26" value="检查通过，转发请求" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="T-NpHmAWfooNjLqC8jVq-2" target="T-NpHmAWfooNjLqC8jVq-24">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="500" as="sourcePoint" />
+            <mxPoint x="130" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T-NpHmAWfooNjLqC8jVq-29" value="返回业务请求结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="T-NpHmAWfooNjLqC8jVq-2" source="T-NpHmAWfooNjLqC8jVq-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="570" as="sourcePoint" />
+            <mxPoint x="50" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T-NpHmAWfooNjLqC8jVq-3" value="鉴权服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#67AB9F;" vertex="1" parent="1">
+          <mxGeometry x="727" y="220" width="100" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="T-NpHmAWfooNjLqC8jVq-7" value="APP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="40" y="221" width="100" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="T-NpHmAWfooNjLqC8jVq-15" value="返回访问令牌Token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="T-NpHmAWfooNjLqC8jVq-3" target="T-NpHmAWfooNjLqC8jVq-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="640" as="sourcePoint" />
+            <mxPoint x="690" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T-NpHmAWfooNjLqC8jVq-16" value="返回访问令牌Token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="T-NpHmAWfooNjLqC8jVq-2" target="T-NpHmAWfooNjLqC8jVq-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="528.5" y="660" as="sourcePoint" />
+            <mxPoint x="298" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T-NpHmAWfooNjLqC8jVq-10" value="返回登陆二维码" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="T-NpHmAWfooNjLqC8jVq-2" target="T-NpHmAWfooNjLqC8jVq-1">
+          <mxGeometry x="0.5477" y="-10" relative="1" as="geometry">
+            <mxPoint x="370" y="450" as="sourcePoint" />
+            <mxPoint x="290" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="400" />
+            </Array>
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T-NpHmAWfooNjLqC8jVq-6" value="返回二维码地址" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="T-NpHmAWfooNjLqC8jVq-3" target="T-NpHmAWfooNjLqC8jVq-2">
+          <mxGeometry x="0.1543" y="-10" relative="1" as="geometry">
+            <mxPoint x="620" y="400" as="sourcePoint" />
+            <mxPoint x="540" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="390" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T-NpHmAWfooNjLqC8jVq-12" value="扫描登陆二维码" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="T-NpHmAWfooNjLqC8jVq-7" target="T-NpHmAWfooNjLqC8jVq-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="500" as="sourcePoint" />
+            <mxPoint x="170" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T-NpHmAWfooNjLqC8jVq-13" value="轮询登陆状态" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="T-NpHmAWfooNjLqC8jVq-1" target="T-NpHmAWfooNjLqC8jVq-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="290" y="560" as="sourcePoint" />
+            <mxPoint x="370" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T-NpHmAWfooNjLqC8jVq-14" value="轮询登陆状态" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="T-NpHmAWfooNjLqC8jVq-2" target="T-NpHmAWfooNjLqC8jVq-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="550" y="589" as="sourcePoint" />
+            <mxPoint x="780" y="585" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T-NpHmAWfooNjLqC8jVq-24" value="业务服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#33FF33;" vertex="1" parent="1">
+          <mxGeometry x="930" y="220" width="100" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="T-NpHmAWfooNjLqC8jVq-27" value="检查不通过，禁止访问" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="T-NpHmAWfooNjLqC8jVq-2" target="T-NpHmAWfooNjLqC8jVq-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="750" as="sourcePoint" />
+            <mxPoint x="450" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T-NpHmAWfooNjLqC8jVq-30" value="返回业务请求结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" target="T-NpHmAWfooNjLqC8jVq-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="810" as="sourcePoint" />
+            <mxPoint x="460" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
