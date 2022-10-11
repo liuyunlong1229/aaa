@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-11T14:22:32.601Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="rP8YHmrGYe2_-8WZIaZ3" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-11T14:25:20.943Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="RSdbu565XcxkMGuBekqM" version="20.2.2" type="github">
   <diagram id="MSEFF53zL748iqYzD8NO" name="第 1 页">
     <mxGraphModel dx="3110" dy="2642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -247,6 +247,9 @@
         <mxCell id="Ua7ldsZMbTLFUnfycN5G-82" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;阿里云Kubernetes服务&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1292" y="537.5" width="162" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="Ua7ldsZMbTLFUnfycN5G-95" value="应用发布" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=18;fontSize=18;rotation=-15;" parent="1" vertex="1">
+          <mxGeometry x="260" y="-18.5" width="110" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="Ua7ldsZMbTLFUnfycN5G-100" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ECS自建服务&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1651" y="41.5" width="119" height="30" as="geometry" />
         </mxCell>
@@ -363,6 +366,9 @@
             <mxPoint x="20" y="120" as="sourcePoint" />
             <mxPoint x="70" y="120" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="JjMIrhVPrF9gYijzPyEs-65" value="应用发布" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=18;fontSize=18;rotation=20;" vertex="1" parent="1">
+          <mxGeometry x="259.83" y="190.21" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
