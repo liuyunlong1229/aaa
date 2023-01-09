@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-24T11:03:52.150Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="TM98yqN8pxhHfzfydVnD" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-09T07:43:14.604Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="oDmmvfs6locaIal7YHuP" version="20.6.0" type="github">
   <diagram id="42q5yrAbg_uipcMJJwmL" name="Page-1">
-    <mxGraphModel dx="2619" dy="-207" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2379" dy="-207" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -374,8 +374,8 @@
         <mxCell id="u6FiNlCxBWFaTgEtle5j-236" value="&lt;h2 style=&quot;box-sizing: border-box ; outline: 0px ; margin: 8px 0px 16px ; padding: 0px ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;simhei&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;simsun&amp;#34; ; color: rgb(79 , 79 , 79) ; line-height: 30px ; overflow-wrap: break-word ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Kibana&lt;/font&gt;&lt;/span&gt;&lt;/h2&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="700.9999999999999" y="1327.5" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="u6FiNlCxBWFaTgEtle5j-237" value="日志检索平台" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="621.9999999999999" y="1257.31" width="90" height="22" as="geometry" />
+        <mxCell id="u6FiNlCxBWFaTgEtle5j-237" value="SLS日志检索平台" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="606" y="1255.5" width="108" height="22" as="geometry" />
         </mxCell>
         <mxCell id="u6FiNlCxBWFaTgEtle5j-238" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;dashed=1;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="568" y="1384.75" width="192" height="247.56" as="geometry" />
@@ -395,7 +395,7 @@
         <mxCell id="u6FiNlCxBWFaTgEtle5j-247" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;Alert&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="669.5599999999998" y="1453.84" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="u6FiNlCxBWFaTgEtle5j-251" value="CICD Platform" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=12;" parent="1" vertex="1">
+        <mxCell id="u6FiNlCxBWFaTgEtle5j-251" value="鲁班系统" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="623" y="883.09" width="93" height="30" as="geometry" />
         </mxCell>
         <mxCell id="u6FiNlCxBWFaTgEtle5j-252" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.database_migration_service;shadow=0;" parent="1" vertex="1">
@@ -515,7 +515,7 @@
             <mxPoint x="-306" y="1330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Mn06M0ClU7nQXyB_iKfc-59" value="BI工具" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
+        <mxCell id="Mn06M0ClU7nQXyB_iKfc-59" value="tableau" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="1598" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Mn06M0ClU7nQXyB_iKfc-60" value="CDN" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
