@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-05T08:37:34.691Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="MR9kUF39W2QWZmWF1cyx" version="21.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-05T08:51:41.233Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="kR5si9q_GFFLlYv_LrgB" version="21.6.3" type="github">
   <diagram name="第 1 页" id="qnVdmV9HIySB8onQInbw">
     <mxGraphModel dx="2261" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -168,6 +168,9 @@
         </mxCell>
         <mxCell id="Y89Ig2oS1trRoRL-e6D0-53" value="pub&amp;nbsp; topic A(tab)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="423" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y89Ig2oS1trRoRL-e6D0-54" value="&lt;div style=&quot;text-align: justify;&quot;&gt;描述同一个消息被多个应用监听的场景：&lt;br&gt;&amp;nbsp;消息发布方应用程序：按照发送者的分组名：{applicationName}_grouop&lt;br&gt;&amp;nbsp;消息订阅方应用程序：消费者分组名称：{applicationName}_grouop&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="10" width="1050" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
