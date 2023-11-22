@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-22T06:34:47.725Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="HOL-YWNb-9ffjtZuZZ_Y" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-22T06:36:39.348Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="9ZBCllCYbhcNYY_efEVX" version="22.1.3" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -139,10 +139,10 @@
         </mxCell>
         <mxCell id="Wx2LwBdW0A8jemOkCZMF-81" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-6" target="Wx2LwBdW0A8jemOkCZMF-74">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="250" y="580" as="sourcePoint" />
+            <mxPoint x="240" y="570" as="sourcePoint" />
             <mxPoint x="-490" y="870" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="100" y="580" />
+              <mxPoint x="100" y="570" />
               <mxPoint x="100" y="640" />
             </Array>
           </mxGeometry>
@@ -157,13 +157,13 @@
           <mxGeometry x="90" y="180" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Wx2LwBdW0A8jemOkCZMF-38" value="报损" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="Wx2LwBdW0A8jemOkCZMF-35">
-          <mxGeometry x="80" y="610" width="100" height="60" as="geometry" />
+          <mxGeometry x="88" y="612" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Wx2LwBdW0A8jemOkCZMF-55" value="采购退库" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="Wx2LwBdW0A8jemOkCZMF-35">
           <mxGeometry x="90" y="440" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Wx2LwBdW0A8jemOkCZMF-66" value="盘亏" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="Wx2LwBdW0A8jemOkCZMF-35">
-          <mxGeometry x="80" y="530" width="100" height="60" as="geometry" />
+          <mxGeometry x="88" y="530" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Wx2LwBdW0A8jemOkCZMF-67" value="销售退货" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="Wx2LwBdW0A8jemOkCZMF-35">
           <mxGeometry x="90" y="282" width="100" height="60" as="geometry" />
