@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-30T12:03:09.997Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="3dPynEFqNEdVLjbfS1E_" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-01T03:09:33.798Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="M-EhaGfhnnTS4i9pz_9B" version="24.3.1" type="github">
   <diagram name="第 1 页" id="qxctrX0PizrgYXrYMGE3">
     <mxGraphModel dx="2261" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -38,7 +38,7 @@
           <mxGeometry x="200" y="60" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IpKphLsfjEBB7LEcnN2U-36" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;1、FH系统开启定时任务，查询F3的商品和库存数据与FH系统的数据做对比。&lt;/div&gt;&lt;div&gt;2、如果F3的数据与FH的数据不一致，发送消息。&lt;/div&gt;&lt;div&gt;3、FH商品服务监听到消息，则不在本系统查询数据，直接直连F3查询，同时开启F3的数据复制到FH的商品库。&lt;/div&gt;&lt;div&gt;4、如果F3的数据与FH的数据一致，发送消息。&lt;/div&gt;&lt;div&gt;5、FH商品服务监听到消息，将直接从本地系统查询数据，不再从F3查询。&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-490" y="-490" width="600" height="220" as="geometry" />
+          <mxGeometry x="-550" y="-490" width="600" height="220" as="geometry" />
         </mxCell>
         <mxCell id="IpKphLsfjEBB7LEcnN2U-42" value="2.2、数据一致" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="330" y="-110" width="90" height="30" as="geometry" />
@@ -120,6 +120,9 @@
             <mxPoint x="-170" y="-40" as="sourcePoint" />
             <mxPoint x="-120" y="-90" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="IpKphLsfjEBB7LEcnN2U-81" value="1、定时核对F3和中台，FH库的数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="260" width="260" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
