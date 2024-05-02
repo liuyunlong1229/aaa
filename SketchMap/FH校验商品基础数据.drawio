@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-02T03:17:44.798Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="lnl2iF3fJjymIA2R_6Jj" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-02T03:20:39.219Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="4nLADRa00CsrhvNBjI5E" version="24.3.1" type="github">
   <diagram name="第 1 页" id="SwOGUWTqTxj4O2KYx5Az">
     <mxGraphModel dx="2261" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="I23bi3BN3UNWPdhFbxeZ-8" value="API查询全量商品wproducts数据、按照仓库纬度" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="I23bi3BN3UNWPdhFbxeZ-8" value="API查询全量商品wproducts数据、按照仓库维度" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="270" y="80" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="I23bi3BN3UNWPdhFbxeZ-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.45;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I23bi3BN3UNWPdhFbxeZ-6" target="I23bi3BN3UNWPdhFbxeZ-1">
@@ -133,7 +133,7 @@
         <mxCell id="I23bi3BN3UNWPdhFbxeZ-33" value="ZT数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="394" y="640" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="I23bi3BN3UNWPdhFbxeZ-34" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;1、FH系统开启定时任务，查询F3的商品和库存数据与FH系统的数据做对比。&lt;/div&gt;&lt;div&gt;2、如果F3的数据与FH的数据不一致，发送消息。&lt;/div&gt;&lt;div&gt;3、FH商品服务监听到消息，则不在本系统查询数据，直接直连F3查询，同时开启F3的数据复制到FH的商品库。&lt;/div&gt;&lt;div&gt;4、如果F3的数据与FH的数据一致，发送消息。&lt;/div&gt;&lt;div&gt;5、FH商品服务监听到消息，将直接从本地系统查询数据，不再从F3查询。&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+        <mxCell id="I23bi3BN3UNWPdhFbxeZ-34" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;1、FH系统开启定时任务，查询F3的仓库商品基础数据系统的数据做对比。&lt;/div&gt;&lt;div&gt;2、如果F3的数据与FH的数据不一致，将F3商品的数据保存Redis，同时报警&lt;/div&gt;&lt;div&gt;3、FH商品服务监听到消息，则不在本系统查询数据，直接直连F3查询，同时开启F3的数据复制到FH的商品库。&lt;/div&gt;&lt;div&gt;4、如果F3的数据与FH的数据一致，发送消息。&lt;/div&gt;&lt;div&gt;5、FH商品服务监听到消息，将直接从本地系统查询数据，不再从F3查询。&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
           <mxGeometry x="-80" y="-250" width="600" height="220" as="geometry" />
         </mxCell>
       </root>
