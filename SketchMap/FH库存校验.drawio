@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-02T06:39:47.934Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="uxQwoDdBkzW3GqpSYqba" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-02T07:26:33.023Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="MZs2cWVu5x74jc7SbzvT" version="24.3.1" type="github">
   <diagram name="第 1 页" id="qVZ5cJXcYh1BwgNo5W2R">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -128,7 +128,7 @@
         <mxCell id="QRlhJD_Ntzw3cVginwKR-4" value="微信通知" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="620" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QRlhJD_Ntzw3cVginwKR-6" value="该批次更新完，再次发送核对结果" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="QRlhJD_Ntzw3cVginwKR-6" value="该批次更新完，再次核对结果" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="590" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QRlhJD_Ntzw3cVginwKR-7" value="2、发送核对结果" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
