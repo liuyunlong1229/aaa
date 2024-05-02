@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-02T07:34:55.958Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Z3sy5TOwirVCX0u-QGxU" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-02T07:42:15.703Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="K2Ootawx2T435LDooZLm" version="24.3.1" type="github">
   <diagram name="第 1 页" id="qVZ5cJXcYh1BwgNo5W2R">
     <mxGraphModel dx="1434" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -133,6 +133,18 @@
         </mxCell>
         <mxCell id="QRlhJD_Ntzw3cVginwKR-14" value="&lt;div&gt;&lt;div&gt;1、FH系统开启定时任务，查询F3的仓库商品库存数据做对比。&lt;/div&gt;&lt;div&gt;2、如果F3的数据与FH的数据不一致，则更新为F3的库存，同时微信报警。&lt;/div&gt;&lt;div&gt;3、将FH中的F3库存字段和可用库存做增量更新，同时修改&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;ModifyTime时间。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;5、更新完成后，再次核对F3和FH的商品数据，将核对结果发送到消息微信群。&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
           <mxGeometry x="200" y="-110" width="900" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="QRlhJD_Ntzw3cVginwKR-15" value="生成库存变动历史（事件为库存校对）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="904" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QRlhJD_Ntzw3cVginwKR-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.692;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pPcvffvmUVzLGgQBAyNQ-19" target="QRlhJD_Ntzw3cVginwKR-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="570" as="sourcePoint" />
+            <mxPoint x="840" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="733" y="680" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
