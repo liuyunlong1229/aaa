@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-02T06:13:48.092Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="m5Epq1BqT_KWOQpEJTGV" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-06T00:56:37.639Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="zJjos_swjJvQPf9v1SZN" version="24.3.1" type="github">
   <diagram name="第 1 页" id="SwOGUWTqTxj4O2KYx5Az">
     <mxGraphModel dx="2261" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="I23bi3BN3UNWPdhFbxeZ-1" value="FH系统" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="-150" y="149" width="130" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="4naVz4eQQLzdOFx--Ux4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I23bi3BN3UNWPdhFbxeZ-2">
+        <mxCell id="4naVz4eQQLzdOFx--Ux4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="I23bi3BN3UNWPdhFbxeZ-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-270" y="480" as="targetPoint" />
           </mxGeometry>
@@ -63,32 +63,14 @@
             <mxPoint x="670" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I23bi3BN3UNWPdhFbxeZ-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" target="I23bi3BN3UNWPdhFbxeZ-19" edge="1">
+        <mxCell id="I23bi3BN3UNWPdhFbxeZ-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="I23bi3BN3UNWPdhFbxeZ-22" edge="1" source="I23bi3BN3UNWPdhFbxeZ-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="410" y="230" as="sourcePoint" />
-            <mxPoint x="220" y="230" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="I23bi3BN3UNWPdhFbxeZ-19" value="4.1商品数据快照写入Redis" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="70" y="219" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="I23bi3BN3UNWPdhFbxeZ-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="I23bi3BN3UNWPdhFbxeZ-19" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-20" y="250" as="sourcePoint" />
-            <mxPoint x="30" y="200" as="targetPoint" />
+            <mxPoint x="190" y="234" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I23bi3BN3UNWPdhFbxeZ-22" value="4.2更新不一致字段，并记录F3表（ModifyTime)字段" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="70" y="325" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="I23bi3BN3UNWPdhFbxeZ-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.417;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="I23bi3BN3UNWPdhFbxeZ-22" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="310" y="230" as="sourcePoint" />
-            <mxPoint x="320" y="330" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="310" y="350" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="70" y="229" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="I23bi3BN3UNWPdhFbxeZ-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="I23bi3BN3UNWPdhFbxeZ-22" target="I23bi3BN3UNWPdhFbxeZ-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -129,43 +111,28 @@
         <mxCell id="I23bi3BN3UNWPdhFbxeZ-35" value="2、返回F3的商品数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="480" y="234" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4naVz4eQQLzdOFx--Ux4-1" value="发送核对结果到微信群" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4naVz4eQQLzdOFx--Ux4-1" value="发送核对结果到微信群" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4naVz4eQQLzdOFx--Ux4-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.442;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="I23bi3BN3UNWPdhFbxeZ-12" target="4naVz4eQQLzdOFx--Ux4-1">
+        <mxCell id="4naVz4eQQLzdOFx--Ux4-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.442;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="I23bi3BN3UNWPdhFbxeZ-12" target="4naVz4eQQLzdOFx--Ux4-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="360" y="385" as="sourcePoint" />
             <mxPoint x="426" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4naVz4eQQLzdOFx--Ux4-3" value="不一致" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4naVz4eQQLzdOFx--Ux4-3" value="不一致" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="330" y="199" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4naVz4eQQLzdOFx--Ux4-5" value="清除Redis商品快照" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="440" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="4naVz4eQQLzdOFx--Ux4-6" value="3、发送通知" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4naVz4eQQLzdOFx--Ux4-6" value="3、发送通知" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="420" y="340" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4naVz4eQQLzdOFx--Ux4-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.675;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I23bi3BN3UNWPdhFbxeZ-22" target="4naVz4eQQLzdOFx--Ux4-5">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="220" y="430" as="sourcePoint" />
-            <mxPoint x="270" y="380" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="150" y="470" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4naVz4eQQLzdOFx--Ux4-8" value="从Redis中读取" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="219" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="4naVz4eQQLzdOFx--Ux4-9" value="从数据库总读取" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4naVz4eQQLzdOFx--Ux4-9" value="从数据库总读取" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-80" y="340" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4naVz4eQQLzdOFx--Ux4-10" value="发送纠正结果到微信群" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4naVz4eQQLzdOFx--Ux4-10" value="发送纠正结果到微信群" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-400" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4naVz4eQQLzdOFx--Ux4-11" value="5、发送通知" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4naVz4eQQLzdOFx--Ux4-11" value="5、发送通知" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-400" y="410" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
