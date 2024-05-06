@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-06T00:56:37.639Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="zJjos_swjJvQPf9v1SZN" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-06T02:52:27.793Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="LaeTacfqXnfTM-2Bf8o0" version="24.3.1" type="github">
   <diagram name="第 1 页" id="SwOGUWTqTxj4O2KYx5Az">
     <mxGraphModel dx="2261" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -63,7 +63,7 @@
             <mxPoint x="670" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I23bi3BN3UNWPdhFbxeZ-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="I23bi3BN3UNWPdhFbxeZ-22" edge="1" source="I23bi3BN3UNWPdhFbxeZ-12">
+        <mxCell id="I23bi3BN3UNWPdhFbxeZ-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="I23bi3BN3UNWPdhFbxeZ-12" target="I23bi3BN3UNWPdhFbxeZ-22" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="410" y="230" as="sourcePoint" />
             <mxPoint x="190" y="234" as="targetPoint" />
@@ -105,7 +105,7 @@
         <mxCell id="I23bi3BN3UNWPdhFbxeZ-33" value="ZT数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="394" y="640" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="I23bi3BN3UNWPdhFbxeZ-34" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;1、FH系统开启定时任务，查询F3的仓库商品基础数据系统的数据做对比。&lt;/div&gt;&lt;div&gt;2、如果F3的数据与FH的数据不一致，将F3商品的数据保存Redis，同时微信报警。&lt;/div&gt;&lt;div&gt;3、FH商品服务不在直接查询本地数据，而是直接查询redis，&lt;/div&gt;&lt;div&gt;4、同时将不相同的数据从Redis更新到FH的数据库。&lt;/div&gt;&lt;div&gt;5、更新完成后，再次核对F3和FH的商品数据，如果一致则清空redis,否则再次执行上面的流程。&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" parent="1" vertex="1">
+        <mxCell id="I23bi3BN3UNWPdhFbxeZ-34" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;1、FH系统开启定时任务，查询F3的仓库商品基础数据系统的数据做对比。&lt;/div&gt;&lt;div&gt;2、如果F3的数据与FH的数据不一致，将F3商品的数据保存Redis，同时微信报警。&lt;/div&gt;&lt;div&gt;3、FH商品服务不在直接查询本地数据，而是直接查询redis，&lt;/div&gt;&lt;div&gt;4、同时将不相同的数据从Redis更新到FH的数据库。&lt;/div&gt;&lt;div&gt;5、更新完成后，再次核对F3和FH的商品数据，如果一致则清空redis,否则再次执行上面的流程。&lt;br&gt;6、F3的wproducts价格是日结之后，晚上11点后，中午12：30点跑检查job,，更新手工更新。&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" parent="1" vertex="1">
           <mxGeometry x="-320" y="-270" width="900" height="240" as="geometry" />
         </mxCell>
         <mxCell id="I23bi3BN3UNWPdhFbxeZ-35" value="2、返回F3的商品数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
