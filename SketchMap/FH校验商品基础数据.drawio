@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-07T01:04:42.564Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Pr0wTV1h5D3ZCu74-TMf" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-07T01:05:41.818Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="jM60qzVQT5XV8SsL3FUX" version="24.3.1" type="github">
   <diagram name="第 1 页" id="SwOGUWTqTxj4O2KYx5Az">
     <mxGraphModel dx="2261" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -75,11 +75,6 @@
         </mxCell>
         <mxCell id="DuokuNJwzsPmPS03nK41-3" value="FH系统" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="-160" y="929" width="130" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="DuokuNJwzsPmPS03nK41-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DuokuNJwzsPmPS03nK41-5">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-280" y="1260" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="DuokuNJwzsPmPS03nK41-5" value="FH数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="-130" y="1220" width="65" height="80" as="geometry" />
@@ -173,12 +168,6 @@
         </mxCell>
         <mxCell id="DuokuNJwzsPmPS03nK41-29" value="从数据库读取" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-90" y="1120" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="DuokuNJwzsPmPS03nK41-30" value="发送纠正结果到微信群" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-410" y="1230" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="DuokuNJwzsPmPS03nK41-31" value="5、发送通知" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-410" y="1190" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DuokuNJwzsPmPS03nK41-32" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;商品基础信息更新（手工）&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="780" width="210" height="30" as="geometry" />
