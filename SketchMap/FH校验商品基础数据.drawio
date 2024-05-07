@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-07T01:15:58.476Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="oXvq5rtpY11pes-S2BRw" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-07T01:16:25.683Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="gyknm9CytfFeL8dzBSPv" version="24.3.1" type="github">
   <diagram name="第 1 页" id="SwOGUWTqTxj4O2KYx5Az">
     <mxGraphModel dx="2261" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -49,7 +49,7 @@
             <mxPoint x="670" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I23bi3BN3UNWPdhFbxeZ-34" value="&lt;div&gt;定时任务核对job：&lt;br&gt;&lt;br&gt;1、FH系统开启定时任务，定时查询F3的仓库商品基础数据系统的数据做对比，时间（&lt;span style=&quot;background-color: initial;&quot;&gt;晚上11：30，中午12：30）&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;2、如果F3的数据与FH的数据不一致，同时微信报警。&lt;br&gt;&lt;br&gt;定时任务更新job：（默认不开启）&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3、如果查询中台的门店汇率接口出现异常，打印日志，直接取商品表的汇率。&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" parent="1" vertex="1">
+        <mxCell id="I23bi3BN3UNWPdhFbxeZ-34" value="&lt;div&gt;定时任务核对job：&lt;br&gt;&lt;br&gt;1、FH系统开启定时任务，定时查询F3的仓库商品基础数据系统的数据做对比，时间（&lt;span style=&quot;background-color: initial;&quot;&gt;晚上11：30，中午12：30）&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;2、如果F3的数据与FH的数据不一致，同时微信报警。&lt;br&gt;&lt;br&gt;定时任务更新job：（默认不开启）&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3、如果查询中台的门店汇率接口出现异常，打印日志（由SLS日志搜集报警），直接取商品表的汇率。&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" parent="1" vertex="1">
           <mxGeometry x="-320" y="-270" width="900" height="240" as="geometry" />
         </mxCell>
         <mxCell id="I23bi3BN3UNWPdhFbxeZ-35" value="2、返回F3的商品数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
