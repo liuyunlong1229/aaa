@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-07T07:23:56.396Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="ss3mLGafrCopVFGEtqzJ" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-07T08:30:10.177Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="_LByHMTGR2HlwqQFUDaJ" version="24.3.1" type="github">
   <diagram name="第 1 页" id="qVZ5cJXcYh1BwgNo5W2R">
     <mxGraphModel dx="1434" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,10 +8,13 @@
           <mxGeometry x="400" y="1350" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="pPcvffvmUVzLGgQBAyNQ-2" value="FH数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="435" y="1600" width="60" height="80" as="geometry" />
+          <mxGeometry x="435" y="1608" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iYMbOG68nSV6l12BrZ7V-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pPcvffvmUVzLGgQBAyNQ-3" target="iYMbOG68nSV6l12BrZ7V-27">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pPcvffvmUVzLGgQBAyNQ-3" value="F3系统" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="1230" y="1385" width="160" height="160" as="geometry" />
+          <mxGeometry x="1230" y="1383" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="pPcvffvmUVzLGgQBAyNQ-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="pPcvffvmUVzLGgQBAyNQ-1" target="pPcvffvmUVzLGgQBAyNQ-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -49,33 +52,11 @@
             <mxPoint x="760" y="1490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pPcvffvmUVzLGgQBAyNQ-11" value="核对数据(F3-FH)" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="924" y="1385" width="80" height="80" as="geometry" />
+        <mxCell id="iYMbOG68nSV6l12BrZ7V-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pPcvffvmUVzLGgQBAyNQ-19" target="QRlhJD_Ntzw3cVginwKR-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pPcvffvmUVzLGgQBAyNQ-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="pPcvffvmUVzLGgQBAyNQ-11" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1220" y="1425" as="sourcePoint" />
-            <mxPoint x="1220" y="1450" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pPcvffvmUVzLGgQBAyNQ-19" value="3、增量更新F3库存和可用库存字段，并记录F3表（ModifyTime)字段" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="1399" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="pPcvffvmUVzLGgQBAyNQ-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.417;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="pPcvffvmUVzLGgQBAyNQ-11" target="pPcvffvmUVzLGgQBAyNQ-19" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="860" y="1390" as="sourcePoint" />
-            <mxPoint x="870" y="1490" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pPcvffvmUVzLGgQBAyNQ-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="pPcvffvmUVzLGgQBAyNQ-19" target="pPcvffvmUVzLGgQBAyNQ-2" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="580" y="1680" as="sourcePoint" />
-            <mxPoint x="700" y="1580" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="690" y="1650" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="pPcvffvmUVzLGgQBAyNQ-19" value="3、完全覆盖F3库存重新计算可用库存字段，并记录F3表（ModifyTime)字段" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="1403" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pPcvffvmUVzLGgQBAyNQ-23" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;比较ModifyTime确定是否更新数据&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="587" y="1770" width="220" height="40" as="geometry" />
@@ -104,23 +85,14 @@
         <mxCell id="QRlhJD_Ntzw3cVginwKR-12" value="不一致" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="820" y="1385" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QRlhJD_Ntzw3cVginwKR-13" value="不一致" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="980" y="1465" width="60" height="30" as="geometry" />
+        <mxCell id="QRlhJD_Ntzw3cVginwKR-13" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="980" y="1385" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QRlhJD_Ntzw3cVginwKR-14" value="&lt;div&gt;&lt;div&gt;1、FH系统开启定时任务，查询F3的仓库商品库存数据做对比。&lt;/div&gt;&lt;div&gt;2、如果F3的数据与FH的数据不一致，则更新为F3的库存，同时微信报警。&lt;/div&gt;&lt;div&gt;3、将FH中的F3库存字段和可用库存做增量更新，同时修改&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;ModifyTime时间。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;5、更新完成后，再次核对F3和FH的商品数据，将核对结果发送到消息微信群。&lt;br&gt;5、每4个小时小时检查一次，手工更新。&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" parent="1" vertex="1">
           <mxGeometry x="200" y="-110" width="900" height="240" as="geometry" />
         </mxCell>
         <mxCell id="QRlhJD_Ntzw3cVginwKR-15" value="生成库存变动历史（事件为库存校对）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="884" y="1630" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="QRlhJD_Ntzw3cVginwKR-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.692;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="pPcvffvmUVzLGgQBAyNQ-19" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="770" y="1560" as="sourcePoint" />
-            <mxPoint x="880" y="1650" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="713" y="1650" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="620" y="1630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iYMbOG68nSV6l12BrZ7V-1" value="FH系统" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="330" y="390" width="130" height="130" as="geometry" />
@@ -175,6 +147,41 @@
         </mxCell>
         <mxCell id="iYMbOG68nSV6l12BrZ7V-24" value="不一致" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="910" y="505" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iYMbOG68nSV6l12BrZ7V-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iYMbOG68nSV6l12BrZ7V-27" target="pPcvffvmUVzLGgQBAyNQ-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="1425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iYMbOG68nSV6l12BrZ7V-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iYMbOG68nSV6l12BrZ7V-27" target="iYMbOG68nSV6l12BrZ7V-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iYMbOG68nSV6l12BrZ7V-27" value="是否强制更新" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1383" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iYMbOG68nSV6l12BrZ7V-30" value="核对数据(F3-FH)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1620" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iYMbOG68nSV6l12BrZ7V-32" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="1513" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iYMbOG68nSV6l12BrZ7V-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iYMbOG68nSV6l12BrZ7V-34" target="QRlhJD_Ntzw3cVginwKR-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1250" y="1820" as="sourcePoint" />
+            <mxPoint x="1300" y="1770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iYMbOG68nSV6l12BrZ7V-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iYMbOG68nSV6l12BrZ7V-30" target="iYMbOG68nSV6l12BrZ7V-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1050" y="1660" as="sourcePoint" />
+            <mxPoint x="740" y="1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iYMbOG68nSV6l12BrZ7V-34" value="3、增量更新F3可用库存和可用库存（ModifyTime)字段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="854" y="1630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iYMbOG68nSV6l12BrZ7V-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="1" source="QRlhJD_Ntzw3cVginwKR-15" target="pPcvffvmUVzLGgQBAyNQ-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
