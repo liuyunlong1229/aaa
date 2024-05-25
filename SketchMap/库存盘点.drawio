@@ -1,20 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2024-05-25T01:56:47.297Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="hXc535w66_ykunkEeKR_" version="24.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-25T06:46:49.060Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="fLFLd9lH2w3yWXpwfxLM" version="24.4.3" type="github">
   <diagram name="第 1 页" id="DW7_3Bq0a3bvPTooyLFo">
-    <mxGraphModel dx="2261" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2620" dy="2102" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="RMcQa0y9j6y76Bn0nbYR-1" value="FH系统" style="whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="218.5" width="130" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="RMcQa0y9j6y76Bn0nbYR-3" value="FH数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="585" width="65" height="180" as="geometry" />
+          <mxGeometry x="70" y="208.5" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="hyk5TnRB2j8q7CAmKHLL-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" edge="1" parent="1" source="RMcQa0y9j6y76Bn0nbYR-6" target="hyk5TnRB2j8q7CAmKHLL-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RMcQa0y9j6y76Bn0nbYR-6" value="FH每天凌晨3点定时job" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="340" y="249" width="140" height="60" as="geometry" />
+          <mxGeometry x="330" y="240" width="150" height="69" as="geometry" />
         </mxCell>
         <mxCell id="RMcQa0y9j6y76Bn0nbYR-9" value="" style="endArrow=classic;html=1;rounded=1;exitX=-0.043;exitY=0.567;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" parent="1" source="RMcQa0y9j6y76Bn0nbYR-6" target="RMcQa0y9j6y76Bn0nbYR-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -23,7 +20,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RMcQa0y9j6y76Bn0nbYR-10" value="客户端" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" parent="1" vertex="1">
-          <mxGeometry x="-140" y="245.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="-140" y="238" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RMcQa0y9j6y76Bn0nbYR-11" value="" style="endArrow=classic;html=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.427;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" parent="1" source="RMcQa0y9j6y76Bn0nbYR-10" target="RMcQa0y9j6y76Bn0nbYR-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -31,72 +28,156 @@
             <mxPoint x="440" y="415.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RMcQa0y9j6y76Bn0nbYR-47" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" parent="1" source="RMcQa0y9j6y76Bn0nbYR-12" target="RMcQa0y9j6y76Bn0nbYR-39" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="RMcQa0y9j6y76Bn0nbYR-12" value="核对数据" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="797" y="440" width="76" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="RMcQa0y9j6y76Bn0nbYR-34" value="发送警告到微信群" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" parent="1" vertex="1">
-          <mxGeometry x="999" y="450" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="RMcQa0y9j6y76Bn0nbYR-39" value="生成当天库存记录" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" parent="1" vertex="1">
-          <mxGeometry x="490" y="680" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="RMcQa0y9j6y76Bn0nbYR-44" value="" style="endArrow=classic;html=1;rounded=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" parent="1" source="RMcQa0y9j6y76Bn0nbYR-39" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="420" y="805" as="sourcePoint" />
-            <mxPoint x="370" y="710" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RMcQa0y9j6y76Bn0nbYR-56" value="清除历史的库存变动历史" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" parent="1" vertex="1">
-          <mxGeometry x="490" y="595" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="RMcQa0y9j6y76Bn0nbYR-57" value="" style="endArrow=classic;html=1;rounded=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" parent="1" target="RMcQa0y9j6y76Bn0nbYR-56" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="830" y="625" as="sourcePoint" />
-            <mxPoint x="980" y="575" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RMcQa0y9j6y76Bn0nbYR-58" value="" style="endArrow=classic;html=1;rounded=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.025;exitY=0.617;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" parent="1" source="RMcQa0y9j6y76Bn0nbYR-56" target="RMcQa0y9j6y76Bn0nbYR-3" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="480" y="630" as="sourcePoint" />
-            <mxPoint x="470" y="605" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="808" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RMcQa0y9j6y76Bn0nbYR-59" value="&lt;div&gt;目的是为了计算锁定的FH系统内部锁定的库存是否正确，不正确提前报警通知；正确会自动生成库存统计记录，清除不必要的库存历史记录，方便后续库存跟踪。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="10" y="80" width="900" height="100" as="geometry" />
+          <mxGeometry y="-100" width="900" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="tM9Cnk7v_0ooB2W26vRW-2" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="870" y="479.5" as="sourcePoint" />
-            <mxPoint x="990" y="479.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hyk5TnRB2j8q7CAmKHLL-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" edge="1" parent="1" target="hyk5TnRB2j8q7CAmKHLL-7">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="890" y="279" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hyk5TnRB2j8q7CAmKHLL-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;" edge="1" parent="1" source="hyk5TnRB2j8q7CAmKHLL-1" target="RMcQa0y9j6y76Bn0nbYR-12">
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;" edge="1" parent="1" source="hyk5TnRB2j8q7CAmKHLL-1" target="RMcQa0y9j6y76Bn0nbYR-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hyk5TnRB2j8q7CAmKHLL-1" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;（F3库存=FH可用库存+FH锁定库存）&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="218.5" width="110" height="121" as="geometry" />
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;" edge="1" parent="1" source="hyk5TnRB2j8q7CAmKHLL-1" target="hyk5TnRB2j8q7CAmKHLL-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hyk5TnRB2j8q7CAmKHLL-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" edge="1" parent="1" source="hyk5TnRB2j8q7CAmKHLL-4">
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-18" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#0B4D6A;entryX=0.468;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hyk5TnRB2j8q7CAmKHLL-1" target="hyk5TnRB2j8q7CAmKHLL-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="865" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-1" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;&quot;&gt;F3库存=&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;FH可用库存+FH锁定库存&lt;/font&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="783" y="179" width="170" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hyk5TnRB2j8q7CAmKHLL-4" target="hyk5TnRB2j8q7CAmKHLL-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="780" y="279" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hyk5TnRB2j8q7CAmKHLL-4" value="遍历商品库存" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" vertex="1" parent="1">
-          <mxGeometry x="550" y="249" width="120" height="60" as="geometry" />
+          <mxGeometry x="530" y="240" width="140" height="69" as="geometry" />
         </mxCell>
         <mxCell id="hyk5TnRB2j8q7CAmKHLL-7" value="生成库存存档记录" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" vertex="1" parent="1">
-          <mxGeometry x="980" y="269" width="121" height="61" as="geometry" />
+          <mxGeometry x="1030" y="244.5" width="121" height="61" as="geometry" />
         </mxCell>
-        <mxCell id="hyk5TnRB2j8q7CAmKHLL-9" value="相同" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="900" y="230" width="60" height="30" as="geometry" />
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-17" value="&lt;font color=&quot;#000000&quot;&gt;相同&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#EEEEEE;" vertex="1" parent="1">
+          <mxGeometry x="952" y="246" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-19" value="&lt;font color=&quot;#000000&quot;&gt;不相同&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#EEEEEE;" vertex="1" parent="1">
+          <mxGeometry x="865" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-23" value="核对规则：（取上次归档后的时间开始流水记录）&lt;br&gt;1、核对普通订单锁库存：SUM(普通订单锁库)=库存表的普通订单锁库存一致。&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#B09500;fontColor=#000000;fillColor=#e3c800;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="360" width="430" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-25" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=1;strokeColor=#0B4D6A;exitX=0.636;exitY=0.132;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="hyk5TnRB2j8q7CAmKHLL-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="889.48" y="486.4000000000001" as="sourcePoint" />
+            <mxPoint x="1160" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-29" value="&lt;font color=&quot;#000000&quot;&gt;是&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#EEEEEE;" vertex="1" parent="1">
+          <mxGeometry x="980" y="685" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-32" value="生成普通订单锁库存差异流水，并修商品可用库存数量" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;fillColor=#09555B;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="700" width="187.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-33" value="&lt;font color=&quot;#000000&quot;&gt;否&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#EEEEEE;" vertex="1" parent="1">
+          <mxGeometry x="720" y="690" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;" edge="1" parent="1" source="hyk5TnRB2j8q7CAmKHLL-36" target="hyk5TnRB2j8q7CAmKHLL-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-36" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; 核对普通订单流水，&lt;br&gt;计算普通订单锁库存差异" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;fillColor=#09555B;" vertex="1" parent="1">
+          <mxGeometry x="780" y="460" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-39" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0B4D6A;" edge="1" parent="1" source="hyk5TnRB2j8q7CAmKHLL-37" target="hyk5TnRB2j8q7CAmKHLL-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;" edge="1" parent="1" source="hyk5TnRB2j8q7CAmKHLL-37" target="hyk5TnRB2j8q7CAmKHLL-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-37" value="普通订单锁库存差异数量&lt;br&gt;=（F3库存 - FH可用库存 - FH锁定库存）？" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="787" y="630" width="175" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-45" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0B4D6A;" edge="1" parent="1" source="hyk5TnRB2j8q7CAmKHLL-40" target="hyk5TnRB2j8q7CAmKHLL-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-40" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; 请求活动订单锁库存核对和活动锁库存" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;fillColor=#09555B;" vertex="1" parent="1">
+          <mxGeometry x="500" y="685" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-42" value="核对规则：（取上次归档后的时间开始流水记录）&lt;br&gt;1、核对活动订单锁库存：SUM(活动订单锁库)=活动商品关联表中的订单锁库存一致。&lt;br&gt;2、活动的可用库存=活动初始化库存-活动订单销售库存&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#B09500;fontColor=#000000;fillColor=#e3c800;align=left;" vertex="1" parent="1">
+          <mxGeometry x="395" y="910" width="430" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-43" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=1;strokeColor=#0B4D6A;" edge="1" parent="1" source="hyk5TnRB2j8q7CAmKHLL-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="820" as="sourcePoint" />
+            <mxPoint x="610" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-44" value="活动订单锁库存差异&lt;br&gt;=F3库存 - FH可用库存 - FH锁定库存？" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="630" width="195" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-47" value="生成活动订单锁库存差异流水，并修商品可用库存数量" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;fillColor=#09555B;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="685" width="187.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-48" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#0B4D6A;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hyk5TnRB2j8q7CAmKHLL-44" target="hyk5TnRB2j8q7CAmKHLL-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="810" as="sourcePoint" />
+            <mxPoint x="160" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-50" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#0B4D6A;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.523;exitY=0.035;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="hyk5TnRB2j8q7CAmKHLL-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="600" as="sourcePoint" />
+            <mxPoint x="65" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="272" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-51" value="&lt;font color=&quot;#000000&quot;&gt;是&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#EEEEEE;" vertex="1" parent="1">
+          <mxGeometry x="80" y="690" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-52" value="&lt;font color=&quot;#000000&quot;&gt;否&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#EEEEEE;" vertex="1" parent="1">
+          <mxGeometry x="200" y="540" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-57" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;" edge="1" parent="1" source="hyk5TnRB2j8q7CAmKHLL-53" target="hyk5TnRB2j8q7CAmKHLL-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-53" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; 活动锁库存核对" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;fillColor=#09555B;" vertex="1" parent="1">
+          <mxGeometry x="-125" y="464" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-54" value="核对规则：（取上次归档后的时间开始流水记录）&lt;br&gt;1、统计流水中的下单数量总和活动商品关联表的销售库存&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#B09500;fontColor=#000000;fillColor=#e3c800;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="179" width="430" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-55" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=1;strokeColor=#0B4D6A;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="hyk5TnRB2j8q7CAmKHLL-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-70" y="460" as="sourcePoint" />
+            <mxPoint x="-20" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;" edge="1" parent="1" source="hyk5TnRB2j8q7CAmKHLL-56" target="hyk5TnRB2j8q7CAmKHLL-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;" edge="1" parent="1" source="hyk5TnRB2j8q7CAmKHLL-56" target="hyk5TnRB2j8q7CAmKHLL-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-56" value="活动锁库存差异&lt;br&gt;=F3库存 - FH可用库存 - FH锁定库存？" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="409" width="195" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-59" value="生产活动锁库存差异流水，并修正商品可用库存" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;fillColor=#09555B;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="469" width="187.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-61" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=none;labelBackgroundColor=#000000;noLabel=1;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-62" value="&lt;font color=&quot;#000000&quot;&gt;是&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#EEEEEE;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="469" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-63" value="发送微信报警" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;fillColor=#09555B;" vertex="1" parent="1">
+          <mxGeometry x="-438" y="690" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hyk5TnRB2j8q7CAmKHLL-65" value="&lt;font color=&quot;#000000&quot;&gt;否&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#EEEEEE;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="630" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
