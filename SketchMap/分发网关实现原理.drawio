@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-13T02:59:54.003Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="KY4ERUI8t8NEbI6dUS7q" version="24.4.14" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-13T03:01:07.194Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="tbXHMqQYGiaZbJqx68fx" version="24.4.14" type="github">
   <diagram name="第 1 页" id="qCyqSDlLpOXVNilljG4B">
     <mxGraphModel dx="1434" dy="746" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="rPTgxNd3Im22zeCbutrb-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rPTgxNd3Im22zeCbutrb-3" target="rPTgxNd3Im22zeCbutrb-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rPTgxNd3Im22zeCbutrb-3" value="第三方系统" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rPTgxNd3Im22zeCbutrb-3" value="&lt;b&gt;第三方系统&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="38" y="380" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="rPTgxNd3Im22zeCbutrb-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rPTgxNd3Im22zeCbutrb-5" target="rPTgxNd3Im22zeCbutrb-6">
@@ -36,7 +36,7 @@
         <mxCell id="rPTgxNd3Im22zeCbutrb-6" value="转发请求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="920" y="390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rPTgxNd3Im22zeCbutrb-7" value="&lt;b&gt;内部服务(TEST)&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rPTgxNd3Im22zeCbutrb-7" value="&lt;b&gt;内部服务(TEST)&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1130" y="380" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="rPTgxNd3Im22zeCbutrb-11" value="缓存请求信息" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
@@ -45,7 +45,7 @@
         <mxCell id="rPTgxNd3Im22zeCbutrb-12" value="重建请求" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="600" y="310" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="rPTgxNd3Im22zeCbutrb-19" value="&lt;b&gt;内部服务（DEV)&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rPTgxNd3Im22zeCbutrb-19" value="&lt;b&gt;内部服务（DEV)&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="1130" y="250" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="rPTgxNd3Im22zeCbutrb-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.391;exitY=-0.033;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=25;entryPerimeter=0;strokeColor=#d03940;" edge="1" parent="1" source="rPTgxNd3Im22zeCbutrb-5" target="rPTgxNd3Im22zeCbutrb-12">
@@ -130,6 +130,15 @@
         </mxCell>
         <mxCell id="rPTgxNd3Im22zeCbutrb-64" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Dispatcher GateWay&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="536" y="192" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rPTgxNd3Im22zeCbutrb-65" value="回调请求" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="213" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rPTgxNd3Im22zeCbutrb-66" value="回调响应" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="516" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rPTgxNd3Im22zeCbutrb-67" value="回调响应" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="119" y="585" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
