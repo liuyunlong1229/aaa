@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2024-06-13T03:01:07.194Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="tbXHMqQYGiaZbJqx68fx" version="24.4.14" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-13T03:10:28.556Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="DoVCQrLgSgNweuQYJ_QU" version="24.4.14" type="github">
   <diagram name="第 1 页" id="qCyqSDlLpOXVNilljG4B">
     <mxGraphModel dx="1434" dy="746" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="rPTgxNd3Im22zeCbutrb-63" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="rPTgxNd3Im22zeCbutrb-63" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="209" y="149" width="883" height="548" as="geometry" />
         </mxCell>
         <mxCell id="rPTgxNd3Im22zeCbutrb-62" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
@@ -39,10 +39,10 @@
         <mxCell id="rPTgxNd3Im22zeCbutrb-7" value="&lt;b&gt;内部服务(TEST)&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1130" y="380" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="rPTgxNd3Im22zeCbutrb-11" value="缓存请求信息" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="rPTgxNd3Im22zeCbutrb-11" value="缓存请求信息" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="400" y="310" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="rPTgxNd3Im22zeCbutrb-12" value="重建请求" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="rPTgxNd3Im22zeCbutrb-12" value="重建请求" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="600" y="310" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="rPTgxNd3Im22zeCbutrb-19" value="&lt;b&gt;内部服务（DEV)&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
@@ -77,7 +77,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rPTgxNd3Im22zeCbutrb-46" value="重写响应" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="rPTgxNd3Im22zeCbutrb-46" value="重写响应" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="780" y="530" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="rPTgxNd3Im22zeCbutrb-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.525;exitY=0.863;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.442;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#d03940;" edge="1" parent="1" source="rPTgxNd3Im22zeCbutrb-49" target="rPTgxNd3Im22zeCbutrb-46">
@@ -86,7 +86,7 @@
             <mxPoint x="1077" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rPTgxNd3Im22zeCbutrb-49" value="分发请求" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="rPTgxNd3Im22zeCbutrb-49" value="异步分发请求" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="770" y="310" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="rPTgxNd3Im22zeCbutrb-50" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.05;exitY=0.325;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.592;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#d03940;" edge="1" parent="1" source="rPTgxNd3Im22zeCbutrb-46" target="rPTgxNd3Im22zeCbutrb-3">
